@@ -1,0 +1,62 @@
+.contact-container {
+  min-height: 100vh;
+  background: #e6f7ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 2rem;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+.contact-content {
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+.contact-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #0f4c75;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.contact-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+  color: #0369a1;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.contact-email {
+  color: #0891b2;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-bottom: 2px solid #0891b2;
+  padding-bottom: 4px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.contact-email:hover {
+  color: #0e7490;
+  border-bottom-color: #0e7490;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+  .contact-title {
+    font-size: 3rem;
+  }
+  
+  .contact-subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .contact-email {
+    font-size: 1rem;
+  }
+}

@@ -5,7 +5,7 @@ import './Navbar.css';
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="navbar-logo">Coherence Quest</div>
+      <Link to="/" className="navbar-logo">Coherence Quest</Link>
       <ul className="navbar-links">
         <li><Link to="/hackathons" className="nav-link">Hackathons</Link></li>
         <li><Link to="/courses" className="nav-link">Courses</Link></li>
@@ -16,4 +16,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar; 
+export default Navbar;

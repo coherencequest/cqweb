@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import MissionSection from './components/MissionSection';
+import HackathonPopup from './components/HackathonPopup';
 import Hackathons from './pages/Hackathons';
 import Courses from './pages/Courses';
 import Opportunities from './pages/Opportunities';
@@ -18,6 +19,7 @@ function App() {
           <>
             <HeroSection />
             <MissionSection />
+            <HackathonPopup />
           </>
         } />
         <Route path="/hackathons" element={<Hackathons />} />
@@ -29,4 +31,4 @@ function App() {
   );
 }
 
-export default App; 
+export default App;

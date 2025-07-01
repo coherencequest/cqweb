@@ -3,13 +3,20 @@ import qcomp from './qcomp.jpeg';
 import './HeroSection.css';
 
 const HeroSection = () => {
+  const scrollToMission = () => {
+    const missionSection = document.querySelector('.mission-section');
+    if (missionSection) {
+      missionSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="hero">
       <div className="hero-content">
         <h1>Creating oppertunities for students worldwide.</h1>
         <p>Coherence Quest is an organization helpng high school and college students to get oppertunities to learn quantum computing.</p>
         <div className="hero-actions">
-          <button className="donate-btn">Learn more</button>
+          <button className="donate-btn" onClick={scrollToMission}>Learn more</button>
         </div>
       </div>
       <div className="hero-image">
@@ -19,4 +26,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection; 
+export default HeroSection;

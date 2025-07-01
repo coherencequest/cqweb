@@ -1,0 +1,192 @@
+.hackathons-container {
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem;
+  flex-wrap: wrap;
+  background: #f0f9ff;
+}
+
+.hackathons-content {
+  max-width: 600px;
+  text-align: left;
+  width: 100%;
+}
+
+.hackathons-title {
+  color: #0891b2;
+  font-size: 2.8rem;
+  font-family: sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+.hackathons-description {
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+}
+
+.hackathons-btn {
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  background: #0891b2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  transition: background 0.2s;
+}
+.hackathons-btn:hover {
+  background: #0e7490;
+}
+
+.hackathons-sponsors {
+  margin-top: 0;
+  padding: 2rem 0 4rem 0;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: #ffffff;
+}
+
+.hackathons-sponsors-title {
+  color: #0891b2;
+  font-size: 2.7rem;
+  margin-bottom: 2.5rem;
+  margin-top: 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.hackathons-sponsors-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.hackathons-sponsor-logo {
+  max-width: 380px;
+  width: 380px;
+  height: auto;
+  filter: brightness(0) saturate(100%);
+}
+
+.hackathons-poster {
+  max-width: 380px;
+  width: 380px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.hackathons-poster:hover {
+  transform: scale(1.02);
+}
+
+.hackathons-more-sponsors {
+  width: 380px;
+  height: 120px;
+  background: #f0f9ff;
+  border: 2px dashed #0891b2;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0891b2;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.hackathons-image-section {
+  min-width: 260px;
+  max-width: 340px;
+  text-align: center;
+}
+
+.hackathons-main-poster {
+  max-width: 340px;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hackathons-main-poster:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
+.hackathons-perks {
+  margin-top: 0;
+  padding: 4rem 0;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #e0f2fe;
+}
+
+.hackathons-perks-title {
+  color: #0891b2;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hackathons-perks-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.perk-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.8rem;
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: all 0.6s ease-out;
+}
+
+.perk-item.perk-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.perk-checkmark {
+  width: 24px;
+  height: 24px;
+  background: #0891b2;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+  flex-shrink: 0;
+  box-shadow: 0 2px 6px rgba(8,145,178,0.3);
+}
+
+.perk-text {
+  font-size: 1.1rem;
+  color: #0f4c75;
+  font-weight: 500;
+}
