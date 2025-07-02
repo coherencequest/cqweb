@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.7488bbcf.css",
+    "main.css": "/static/css/main.24d60d01.css",
     "main.js": "/static/js/main.4c3a157e.js",
     "static/media/Poster - CQhack25.png": "/static/media/Poster - CQhack25.1f2b344df7cc3d64aef5.png",
     "static/media/qcomp.jpeg": "/static/media/qcomp.dabe76c838681c35c1b3.jpeg",
     "index.html": "/index.html",
-    "main.7488bbcf.css.map": "/static/css/main.7488bbcf.css.map",
+    "main.24d60d01.css.map": "/static/css/main.24d60d01.css.map",
     "main.4c3a157e.js.map": "/static/js/main.4c3a157e.js.map"
   },
   "entrypoints": [
-    "static/css/main.7488bbcf.css",
+    "static/css/main.24d60d01.css",
     "static/js/main.4c3a157e.js"
   ]
 }
