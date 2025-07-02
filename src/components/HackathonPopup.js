@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './HackathonPopup.css';
 import cqhackPoster from './Poster - CQhack25.png';
 
 const HackathonPopup = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     // Check if popup has been shown in this session
@@ -25,7 +27,7 @@ const HackathonPopup = () => {
   };
 
   const handleLearnMore = () => {
-    window.location.href = '/hackathons';
+    navigate('/hackathons');
     setIsVisible(false);
   };
 

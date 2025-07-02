@@ -29,3 +29,52 @@
   margin: 0 auto;
   padding: 0 2rem;
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .mission-section {
+    padding: 2rem 0 2rem 0;
+  }
+  
+  .mission-main {
+    font-size: 1.8rem;
+    padding: 0 1rem;
+  }
+  
+  .mission-description {
+    font-size: 1rem;
+    padding: 0 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .mission-section {
+    padding: 1.5rem 0;
+  }
+  
+  .mission-small {
+    font-size: 0.9rem;
+  }
+  
+  .mission-main {
+    font-size: 1.6rem;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .mission-description {
+    font-size: 0.95rem;
+    padding: 0 1rem;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 480px) {
+  .mission-main {
+    font-size: 1.4rem;
+  }
+  
+  .mission-description {
+    font-size: 0.9rem;
+  }
+}
