@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.d648b350.css",
-    "main.js": "/static/js/main.32edfb6a.js",
+    "main.js": "/static/js/main.68e78b08.js",
     "static/media/Poster - CQhack25.png": "/static/media/Poster - CQhack25.1f2b344df7cc3d64aef5.png",
     "static/media/qcomp.jpeg": "/static/media/qcomp.dabe76c838681c35c1b3.jpeg",
     "index.html": "/index.html",
+    "static/media/classiq_logo.svg": "/static/media/classiq_logo.8c26682f354075c74d389e8a9a9172dd.svg",
     "static/media/kinetik_logo.svg": "/static/media/kinetik_logo.67330f59783176f3a6d6a94ff42b7f54.svg",
     "main.d648b350.css.map": "/static/css/main.d648b350.css.map",
-    "main.32edfb6a.js.map": "/static/js/main.32edfb6a.js.map"
+    "main.68e78b08.js.map": "/static/js/main.68e78b08.js.map"
   },
   "entrypoints": [
     "static/css/main.d648b350.css",
-    "static/js/main.32edfb6a.js"
+    "static/js/main.68e78b08.js"
   ]
 }
