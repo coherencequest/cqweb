@@ -13,8 +13,8 @@ const HeroSection = () => {
   return (
     <section className="hero">
       <div className="hero-content">
-        <h1>Creating oppertunities for students worldwide.</h1>
-        <p>Coherence Quest is an organization helpng high school and college students to get oppertunities to learn quantum computing.</p>
+        <h1>Creating opportunities for students worldwide.</h1>
+        <p>Coherence Quest is an organization helping high school and college students to get opportunities to learn quantum computing.</p>
         <div className="hero-actions">
           <button className="donate-btn" onClick={scrollToMission}>Learn more</button>
         </div>

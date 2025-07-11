@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.8fd8c92d.css",
-    "main.js": "/static/js/main.ccffe282.js",
+    "main.css": "/static/css/main.bd4677aa.css",
+    "main.js": "/static/js/main.51e42ee5.js",
     "static/media/Poster - CQhack25.png": "/static/media/Poster - CQhack25.1f2b344df7cc3d64aef5.png",
     "static/media/qcomp.jpeg": "/static/media/qcomp.dabe76c838681c35c1b3.jpeg",
+    "static/media/kinetiklogo.png": "/static/media/kinetiklogo.a5407ffc79a8819038f0.png",
+    "static/media/AoPS_Main_Logo (1).png": "/static/media/AoPS_Main_Logo (1).6a9d44203d5436400d3a.png",
     "index.html": "/index.html",
-    "main.8fd8c92d.css.map": "/static/css/main.8fd8c92d.css.map",
-    "main.ccffe282.js.map": "/static/js/main.ccffe282.js.map"
+    "main.bd4677aa.css.map": "/static/css/main.bd4677aa.css.map",
+    "main.51e42ee5.js.map": "/static/js/main.51e42ee5.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fd8c92d.css",
-    "static/js/main.ccffe282.js"
+    "static/css/main.bd4677aa.css",
+    "static/js/main.51e42ee5.js"
   ]
 }

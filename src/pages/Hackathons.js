@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import classiqLogo from '../components/classiq_RGB_Black.png';
+import classiqLogo from '../components/classiq-logo.png';
+import kinetikLogo from '../components/kinetiklogo.png';
+import aopsLogo from '../components/AoPS_Main_Logo (1).png';
 import cqhackPoster from '../components/Poster - CQhack25.png';
 import './Hackathons.css';
 
@@ -70,6 +72,8 @@ const Hackathons = () => (
       <h2 className="hackathons-sponsors-title">Sponsors</h2>
       <div className="hackathons-sponsors-container">
         <img src={classiqLogo} alt="CLASSIQ Logo" className="hackathons-sponsor-logo" />
+        <img src={kinetikLogo} alt="Kinetik Logo" className="hackathons-sponsor-logo" />
+        <img src={aopsLogo} alt="AoPS Logo" className="hackathons-sponsor-logo" />
         <div className="hackathons-more-sponsors">
           More coming soon
         </div>
