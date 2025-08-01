@@ -14,6 +14,9 @@ function App() {
   return (
     <>
       <Navbar />
+      <div className="announcement-header">
+        <p>Submission Deadline for CQhack25 extended to August 9th, 5 PM EDT</p>
+      </div>
       <Routes>
         <Route path="/" element={
           <>
