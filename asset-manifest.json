@@ -1,17 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.bd4677aa.css",
-    "main.js": "/static/js/main.51e42ee5.js",
+    "main.js": "/static/js/main.d26df210.js",
     "static/media/Poster - CQhack25.png": "/static/media/Poster - CQhack25.1f2b344df7cc3d64aef5.png",
     "static/media/qcomp.jpeg": "/static/media/qcomp.dabe76c838681c35c1b3.jpeg",
     "static/media/kinetiklogo.png": "/static/media/kinetiklogo.a5407ffc79a8819038f0.png",
+    "static/media/Incogni_logo_black_better_quality.png": "/static/media/Incogni_logo_black_better_quality.cef112cb999988790513.png",
+    "static/media/saily-logo-black (3).png": "/static/media/saily-logo-black (3).a511903129ee3330a806.png",
     "static/media/AoPS_Main_Logo (1).png": "/static/media/AoPS_Main_Logo (1).6a9d44203d5436400d3a.png",
+    "static/media/nordpass vertical (1).png": "/static/media/nordpass vertical (1).29375dca2ee98be8f8c2.png",
+    "static/media/NordVPN_Logo_RGB_Primary_Blue_Black (1).png": "/static/media/NordVPN_Logo_RGB_Primary_Blue_Black (1).639fd9764515c0787274.png",
     "index.html": "/index.html",
     "main.bd4677aa.css.map": "/static/css/main.bd4677aa.css.map",
-    "main.51e42ee5.js.map": "/static/js/main.51e42ee5.js.map"
+    "main.d26df210.js.map": "/static/js/main.d26df210.js.map"
   },
   "entrypoints": [
     "static/css/main.bd4677aa.css",
-    "static/js/main.51e42ee5.js"
+    "static/js/main.d26df210.js"
   ]
 }
