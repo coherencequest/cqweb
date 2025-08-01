@@ -2,6 +2,11 @@ import React, { useState, useEffect } from 'react';
 import classiqLogo from '../components/classiq-logo.png';
 import kinetikLogo from '../components/kinetiklogo.png';
 import aopsLogo from '../components/AoPS_Main_Logo (1).png';
+import sailyLogo from '../components/saily-logo-black (3).png';
+import nordvpnLogo from '../components/NordVPN_Logo_RGB_Primary_Blue_Black (1).png';
+import nordpassLogo from '../components/nordpass vertical (1).png';
+import incogniLogo from '../components/Incogni_logo_black_better_quality.png';
+import qcompLogo from '../components/qcomp.jpeg';
 import cqhackPoster from '../components/Poster - CQhack25.png';
 import './Hackathons.css';
 
@@ -74,6 +79,11 @@ const Hackathons = () => (
         <img src={classiqLogo} alt="CLASSIQ Logo" className="hackathons-sponsor-logo" />
         <img src={kinetikLogo} alt="Kinetik Logo" className="hackathons-sponsor-logo" />
         <img src={aopsLogo} alt="AoPS Logo" className="hackathons-sponsor-logo" />
+        <img src={sailyLogo} alt="Saily Logo" className="hackathons-sponsor-logo" />
+        <img src={nordvpnLogo} alt="NordVPN Logo" className="hackathons-sponsor-logo" />
+        <img src={nordpassLogo} alt="NordPass Logo" className="hackathons-sponsor-logo" />
+        <img src={incogniLogo} alt="Incogni Logo" className="hackathons-sponsor-logo" />
+        <img src={qcompLogo} alt="QComp Logo" className="hackathons-sponsor-logo" />
         <div className="hackathons-more-sponsors">
           More coming soon
         </div>
