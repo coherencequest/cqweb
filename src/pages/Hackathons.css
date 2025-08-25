@@ -79,6 +79,18 @@
   height: 120px;
   object-fit: contain;
   margin: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.hackathons-sponsors-container a {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hackathons-sponsors-container a:hover .hackathons-sponsor-logo {
+  transform: scale(1.05);
 }
 
 .hackathons-poster {

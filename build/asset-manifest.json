@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.cc0c4a6c.css",
+    "main.css": "/static/css/main.908903c0.css",
     "main.js": "/static/js/main.c81ae53d.js",
     "static/media/Poster - CQhack25.png": "/static/media/Poster - CQhack25.1f2b344df7cc3d64aef5.png",
     "static/media/qcomp.jpeg": "/static/media/qcomp.dabe76c838681c35c1b3.jpeg",
@@ -12,11 +12,11 @@
     "static/media/NordVPN_Logo_RGB_Primary_Blue_Black (1).png": "/static/media/NordVPN_Logo_RGB_Primary_Blue_Black (1).639fd9764515c0787274.png",
     "static/media/NordProtect.png": "/static/media/NordProtect.7fc95135b2590553ff8b.png",
     "index.html": "/index.html",
-    "main.cc0c4a6c.css.map": "/static/css/main.cc0c4a6c.css.map",
+    "main.908903c0.css.map": "/static/css/main.908903c0.css.map",
     "main.c81ae53d.js.map": "/static/js/main.c81ae53d.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc0c4a6c.css",
+    "static/css/main.908903c0.css",
     "static/js/main.c81ae53d.js"
   ]
 }
