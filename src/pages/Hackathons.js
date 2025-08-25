@@ -79,11 +79,21 @@ const Hackathons = () => (
         <img src={classiqLogo} alt="CLASSIQ Logo" className="hackathons-sponsor-logo" />
         <img src={kinetikLogo} alt="Kinetik Logo" className="hackathons-sponsor-logo" />
         <img src={aopsLogo} alt="AoPS Logo" className="hackathons-sponsor-logo" />
-        <img src={sailyLogo} alt="Saily Logo" className="hackathons-sponsor-logo" />
-        <img src={nordvpnLogo} alt="NordVPN Logo" className="hackathons-sponsor-logo" />
-        <img src={nordpassLogo} alt="NordPass Logo" className="hackathons-sponsor-logo" />
-        <img src={incogniLogo} alt="Incogni Logo" className="hackathons-sponsor-logo" />
-        <img src={nordprotectLogo} alt="NordProtect Logo" className="hackathons-sponsor-logo" />
+        <a href="https://saily.com/" target="_blank" rel="noopener noreferrer">
+          <img src={sailyLogo} alt="Saily Logo" className="hackathons-sponsor-logo" />
+        </a>
+        <a href="https://nordvpn.com/hackathons" target="_blank" rel="nofollow noopener noreferrer">
+          <img src={nordvpnLogo} alt="NordVPN Logo" className="hackathons-sponsor-logo" />
+        </a>
+        <a href="https://nordpass.com/" target="_blank" rel="noopener noreferrer">
+          <img src={nordpassLogo} alt="NordPass Logo" className="hackathons-sponsor-logo" />
+        </a>
+        <a href="https://incogni.com/" target="_blank" rel="noopener noreferrer">
+          <img src={incogniLogo} alt="Incogni Logo" className="hackathons-sponsor-logo" />
+        </a>
+        <a href="https://nordprotect.com/" target="_blank" rel="noopener noreferrer">
+          <img src={nordprotectLogo} alt="NordProtect Logo" className="hackathons-sponsor-logo" />
+        </a>
       </div>
     </div>
     <div className="hackathons-perks">
